@@ -21,3 +21,26 @@ $max-width: 1100px;
 }
 
 // Margin & Padding
+$spaceamounts: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamounts {
+  // All around Margin
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+
+  // Vertical Margin
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  // All around Padding
+  .m-#{$space} {
+    padding: #{$space}rem;
+  }
+
+  // Vertical Padding
+  .my-#{$space} {
+    padding: #{$space}rem 0;
+  }
+}
