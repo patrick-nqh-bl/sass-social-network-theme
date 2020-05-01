@@ -30,6 +30,10 @@
   color: $primary-color;
 }
 
+.round-img {
+  border-radius: 50%;
+}
+
 // Backgrounds
 .bg {
   &-primary {
@@ -106,7 +110,7 @@
 // Alerts
 
 .alert {
-  padding: 0.08rem;
+  padding: 0.8rem;
   margin: 1rem;
   opacity: 0.9rem;
   background: $light-color;
