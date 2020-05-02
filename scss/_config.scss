@@ -35,12 +35,12 @@ $spaceamounts: (1, 2, 3, 4, 5);
   }
 
   // All around Padding
-  .m-#{$space} {
+  .p-#{$space} {
     padding: #{$space}rem;
   }
 
   // Vertical Padding
-  .my-#{$space} {
+  .py-#{$space} {
     padding: #{$space}rem 0;
   }
 }
